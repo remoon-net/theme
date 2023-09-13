@@ -20,12 +20,12 @@
 			"types": "./dist/index.d.ts",
 			"svelte": "./dist/index.js"
 		},
-		"./bootstrap": {
+		"./dist/bootstrap": {
 			"types": "./dist/bootstrap.d.ts",
 			"svelte": "./dist/bootstrap.js"
 		},
-		"./theme.scss": "./dist/theme.scss",
-		"./bootstrap.scss": "./dist/bootstrap.scss"
+		"./dist/theme.scss": "./dist/theme.scss",
+		"./dist/bootstrap.scss": "./dist/bootstrap.scss"
 	},
 	"files": [
 		"dist",
