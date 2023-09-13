@@ -19,7 +19,13 @@
 		".": {
 			"types": "./dist/index.d.ts",
 			"svelte": "./dist/index.js"
-		}
+		},
+		"./bootstrap": {
+			"types": "./dist/bootstrap.d.ts",
+			"svelte": "./dist/bootstrap.js"
+		},
+		"./theme.scss": "./dist/theme.scss",
+		"./bootstrap.scss": "./dist/bootstrap.scss"
 	},
 	"files": [
 		"dist",
