@@ -3,10 +3,10 @@
 	fill="white"
 	xmlns="http://www.w3.org/2000/svg"
 	transform="rotate(180)"
-	class="s-BnZcOaxCn4fh"
+	class=""
 >
-	<rect class="water s-BnZcOaxCn4fh" width="800" height="800" fill="hsl(194, 100%, 32%)"></rect>
-	<polygon class="shan s-BnZcOaxCn4fh" points="0,800 0,350 485,800"></polygon>
-	<circle class="re s-BnZcOaxCn4fh" cx="0" cy="175" r="175"></circle>
-	<circle class="moon s-BnZcOaxCn4fh" cx="485" cy="315" r="244.99999999999997"></circle>
+	<rect class="water" width="800" height="800" fill="hsl(194, 100%, 32%)"></rect>
+	<polygon class="shan" points="0,800 0,350 485,800"></polygon>
+	<circle class="re" cx="0" cy="175" r="175"></circle>
+	<circle class="moon" cx="485" cy="315" r="245"></circle>
 </svg>
