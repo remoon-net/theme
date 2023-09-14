@@ -1,3 +1,9 @@
+<script context="module" lang="ts">
+	function toFixed(n: number) {
+		return Number(n.toFixed(2))
+	}
+</script>
+
 <script lang="ts">
 	import { a } from './pos'
 	$: b = 800 - $a
@@ -22,9 +28,9 @@
 			transform="rotate(0)"
 		>
 			<rect class="water" width="800" height="800" fill="hsl(194, 100%, 32%)" />
-			<polygon class="shan" points="0,800 0,{$a} {800 - (d + rr)},800" />
-			<circle class="re" cx={0} cy={r} {r} />
-			<circle class="moon" cx={800 - (d + rr)} cy={d + rr} r={rr} />
+			<polygon class="shan" points="0,800 0,{toFixed($a)} {toFixed(800 - (d + rr))},800" />
+			<circle class="re" cx={0} cy={toFixed(r)} r={toFixed(r)} />
+			<circle class="moon" cx={toFixed(800 - (d + rr))} cy={toFixed(d + rr)} r={toFixed(rr)} />
 		</svg>
 	</div>
 </div>
